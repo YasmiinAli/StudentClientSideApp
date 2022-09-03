@@ -1,6 +1,6 @@
 # StudentClientSideApp
 ## run App
- [npm start]
+ npm start
 	
 ## test App
-## npm test
+npm test
