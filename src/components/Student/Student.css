@@ -1,0 +1,67 @@
+.Student {
+  text-align: center;
+}
+
+.question-card {
+  /* Center the div  */
+  margin: 0 auto;
+  margin-top:50px;
+
+  /* Dimensions  */
+  width: 80%; /* Can be in percentage also. */
+  height: auto;
+
+  /* Visual  */
+  background-color: rgb(53, 62, 92);
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 8px;
+  background-color: darkgray;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.correctAnswer {
+  background-color: green;
+}
+.wrongAnswer {
+  background-color: red;
+}
+.question-text {
+  color: orange;
+  font-size: 24px;
+}
+
+/* Final Results  */
+
+.final-results {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 50%; /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: rgb(201, 197, 197);
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(232, 232, 238, 0.25) 0px 30px 60px -12px,
+    rgba(37, 4, 255, 0.3) 0px 18px 36px -18px;
+}
+
+
